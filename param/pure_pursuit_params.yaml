@@ -1,0 +1,16 @@
+/**:
+  ros__parameters:
+    vel_pid:
+      kP: 0.2
+      kI: 0.0
+      kD: 0.0
+    look_ahead_distance: 4.0
+    steering_factor: 3.0
+    min_distance: 3.0
+    v_des: 4.0
+    look_ahead_distance_reverse: 2.0
+    min_distance_reverse: 1.6
+    v_des_reverse: -1.5
+    mode: forward
+
+    #"deadlock", "reverse", "forward"

@@ -1,0 +1,14 @@
+/**:
+  ros__parameters:
+    steer_pid:
+      kP: 0.5
+      kI: 0.01
+      kD: 0.08
+      output_lim_low: -1.0
+      output_lim_high: 1.0
+      reference_lim_low: -1.5708
+      reference_lim_high: +1.5708
+      rate: 200 # [Hz], needs to be factor of 1000
+    steer_feed_forward:
+      linear: +0.3253
+      cubic: -0.0817
